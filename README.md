@@ -1,16 +1,86 @@
-# React + Vite
+# Catálogo de Produtos React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida com React e Vite para exibir, cadastrar e gerenciar produtos por meio de componentes reutilizáveis e gerenciamento de estado.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Exibição de produtos em cards.
+* Cadastro de novos produtos por formulário.
+* Gerenciamento de estado com `useState`.
+* Formulário controlado com campos obrigatórios.
+* Utilização do hook `useEffect` para simular um carregamento assíncrono.
+* Componentização para facilitar a organização e a reutilização do código.
 
-## React Compiler
+## 🛠️ Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Vite
+* HTML5
+* CSS3
 
-## Expanding the ESLint configuration
+## 📂 Estrutura do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+catalogo-produtos/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── ProdutoCard.jsx
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ Como executar o projeto
+
+### 1. Clone o repositório
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
+
+### 2. Entre na pasta do projeto
+
+```bash
+cd catalogo-produtos
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Inicie a aplicação
+
+```bash
+npm run dev
+```
+
+Acesse no navegador o endereço local informado pelo Vite no terminal.
+
+## 📚 Conceitos praticados
+
+* Criação de componentes funcionais.
+* Passagem de propriedades (`props`).
+* Gerenciamento de estado com `useState`.
+* Manipulação de formulários controlados.
+* Validação de campos obrigatórios.
+* Efeitos colaterais com `useEffect`.
+* Organização de arquivos e pastas em projetos React.
+
+## 🎯 Objetivo
+
+O objetivo deste projeto é desenvolver habilidades práticas com React, trabalhando com componentes reutilizáveis, cadastro de produtos, formulários e gerenciamento de estado.
+
+## 👨‍💻 Autor
+
+Gabriel
